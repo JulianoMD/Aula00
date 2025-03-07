@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+p {
+  color: rgb(0, 0, 0);
+}
+
+header {
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  color: #ffffff;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.imagem-destaque {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ffffff;
+}
